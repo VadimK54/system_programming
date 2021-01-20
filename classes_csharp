@@ -1,0 +1,15 @@
+
+namespace CarClass
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car ladaPriora = new Car(200, "Lada");
+ 
+            Console.WriteLine("Информация о машине:\nМарка: {0}\nМаксимальная скорость: {1}\n", ladaPriora.Mark, ladaPriora.MaxSpeed);
+ 
+            Console.ReadKey();
+        }
+    }
+}
